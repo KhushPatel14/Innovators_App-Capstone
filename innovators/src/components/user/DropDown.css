@@ -1,0 +1,53 @@
+.dropdown {
+  display: inline-block;
+  position: relative;
+}
+
+.dropDiv {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.dropTag {
+  margin-right: 10px;
+}
+
+.lblService, .lblCity, .lblProvider {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #333;
+}
+
+.serviceSel, .citySel, .providerSel {
+  width: 150px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-right: 10px;
+  font-size: 14px;
+}
+
+.buttonSer {
+  margin-top: 10px;
+}
+
+.btnService {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #0275d8;
+  color: #fff;
+  border-radius: 5px;
+  font-size: 16px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.btnService:hover {
+  background-color: #025aa5;
+}

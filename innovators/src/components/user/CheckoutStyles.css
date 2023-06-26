@@ -1,0 +1,82 @@
+.checkout_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+  }
+  
+  .checkout_h1 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  
+  .checkout_table {
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 800px;
+    margin-bottom: 30px;
+  }
+  
+  .checkout_thead {
+    background-color: #f2f2f2;
+    font-size: 1.2rem;
+  }
+  
+  .checkout_th,
+  .checkout_td {
+    text-align: left;
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .checkout_app {
+    width: 100%;
+    max-width: 800px;
+    background-color: #f2f2f2;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .checkout_h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .checkout_p {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  .checkout_btn {
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    cursor: pointer;
+  }
+  .checkout_cancel {
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    background-color: #c90000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    cursor: pointer;
+  }
+
+  .checkout_cancel:hover {
+    background-color: #573169;
+  }
+  
+  
+  .checkout_btn:hover {
+    background-color: #3e8e41;
+  }
+  

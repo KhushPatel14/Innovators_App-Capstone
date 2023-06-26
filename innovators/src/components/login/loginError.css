@@ -1,0 +1,33 @@
+.loginerror-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .loginerror-h1 {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+  }
+  
+  .loginerror-p {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+  }
+  
+  .loginerror-btn {
+    font-size: 1.5rem;
+    padding: 1rem 2rem;
+    border-radius: 2rem;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+  }
+  
+  .loginerror-btn:hover {
+    background-color: #0069d9;
+  }
+  

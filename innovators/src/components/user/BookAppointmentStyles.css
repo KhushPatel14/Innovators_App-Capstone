@@ -1,0 +1,166 @@
+.appointmentContainer {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .appointmentContainer h2 {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  input,
+  textarea {
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #0069d9;
+  }
+  
+  .dateLabel {
+    margin-top: 20px;
+  }
+  
+  .textFieldLabel {
+    margin-top: 30px;
+    margin-bottom: 8px;
+  }
+  
+  .submitButton {
+    margin-top: 30px;
+    align-self: center;
+    width: 200px;
+  }
+  .addressFields {
+    margin-bottom: 20px;
+  }
+  
+  .addressFieldGroup {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+  }
+  
+  .addressFieldGroup label {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .addressFieldInput {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  
+  .addressFieldSelect {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  
+  .textFieldLabel {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .addressGroupName {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  .appointments-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    background-color: #f2f2f2;
+  }
+  
+  .appointments-list {
+    list-style: none;
+    margin-top: 1rem;
+    padding: 0;
+  }
+  
+  .appointment {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    transition: transform 0.2s ease-in-out;
+    margin-bottom: 1rem;
+  }
+  
+  .appointment:hover {
+    color: #000;
+    transform: translateY(-0.25rem);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    transform: scale(1.25);
+  }
+  
+  .date {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  .time {
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .name {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 0.1rem;
+  }
+  
+  .location {
+    font-size: 1rem;
+  }
+  
+  .service {
+    font-size: 1rem;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease-in-out;
+  }
